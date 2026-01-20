@@ -28,7 +28,7 @@ Click the badge above to run the notebook directly in your browser with free GPU
 
 1. Clone the repo:
 ```bash
-git clone (https://github.com/Theo92100/Introduction_to_GANs.git)
+git clone https://github.com/Theo92100/Introduction_to_GANs.git
 cd Introduction_to_GANs
 
 ```
