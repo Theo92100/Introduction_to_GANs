@@ -22,7 +22,9 @@ The notebook (`minimal_gan_mnist_adam_sgd_wgangp.ipynb`) implements three specif
 
 ### Option 1: Google Colab (Recommended)
 
-Click the badge above to run the notebook directly in your browser with free GPU acceleration.
+Click the badge below to run the notebook directly in your browser with free GPU acceleration.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Theo92100/Introduction_to_GANs/blob/main/minimal_gan_mnist_adam_sgd_wgangp.ipynb)
 
 ### Option 2: Local Installation
 
