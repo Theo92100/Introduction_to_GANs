@@ -8,12 +8,10 @@ It provides a minimal, self-contained walkthrough of training Generative Adversa
 
 The notebook (`minimal_gan_mnist_adam_sgd_wgangp.ipynb`) implements three specific training scenarios.
 
-1. 
-**Vanilla GAN (Adam):** Implementation of the standard Min-Max game using the non-saturating generator loss.
+1. **Vanilla GAN (Adam):** Implementation of the standard Min-Max game using the non-saturating generator loss.
 
 
-2. 
-**Mode Collapse (SGD):** A demonstration of how optimization instability (using plain SGD) can cause the generator to collapse to a single mode (producing only one digit, e.g., "1"), despite a valid architecture.
+2. **Mode Collapse (SGD):** A demonstration of how optimization instability (using plain SGD) can cause the generator to collapse to a single mode (producing only one digit, e.g., "1"), despite a valid architecture.
 
 
 3. **WGAN-GP:** Implementation of the **Wasserstein GAN** using **Gradient Penalty**. This replaces the discriminator with a 1-Lipschitz "critic" to solve the vanishing gradient problem caused by support mismatch.
@@ -30,7 +28,7 @@ Click the badge above to run the notebook directly in your browser with free GPU
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone (https://github.com/Theo92100/Introduction_to_GANs.git)
 cd Introduction_to_GANs
 
 ```
@@ -60,7 +58,7 @@ The notebook automatically generates  grids of samples at regular intervals to v
 | *Diverse digits* | *Collapsed to single digit* | *Stable training* |
 |  |  |  |
 
-<img width="743" height="371" alt="Epoch 100" src="https://github.com/user-attachments/assets/eca35e60-1c89-41ed-8b3c-e8070e1be53a" />
+<img width="482" height="242" alt="epoch 2 wgan (1)" src="https://github.com/user-attachments/assets/20df30b6-5c7d-460b-bbd5-2958dd38bb6f" />
 
 
 ## 📚 References
